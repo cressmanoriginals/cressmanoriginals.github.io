@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'site';
+  //"site" is name of angular folder. DO NOT CHANGE//
 }
