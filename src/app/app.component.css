@@ -4,21 +4,15 @@
     left : 0;
     width: 100%;
     height: auto;
-    max-height:300px;
+    max-height: 300px;
 }
 
-/*@media only screen and (max-width:640){
-    .banner {
-        height: 100px;
-    }
-}*/
-
 .logo_button1 {
-    position : absolute;
+    position: absolute;
     top : 30px;
     right : 150px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -26,8 +20,8 @@
     position: absolute;
     top: 30px;
     right: 90px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -35,7 +29,23 @@
     position: absolute;
     top: 30px;
     right: 30px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo_button1,.logo_button2,.logo_button3 {
+        top: 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .logo_button1 {
+        right : 100px;
+    }
+
+    .logo_button2 {
+        right: 65px;
+    }
 }
