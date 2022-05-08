@@ -1,3 +1,9 @@
+.top_logos_holder {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .banner {
     position: relative;
     top : 0;
@@ -50,8 +56,15 @@
     .logo_button2 {
         right: 65px;
     }
+    mat-tab-group {
+        width:400px;
+    }
 }
 
 div {
     background-color: rgb(235, 227, 201)
+}
+
+a {
+    text-decoration: none;
 }

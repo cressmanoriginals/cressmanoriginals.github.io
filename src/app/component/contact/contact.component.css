@@ -1,14 +1,14 @@
 .bkgd {
-    background-color: rgb(235, 227, 201) ;
+    background-color: rgb(235, 227, 201);
     position: absolute;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
 
 .center_div {
-    background-color:blue;
+    background-color: green;
     width: auto;
-    height:100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
