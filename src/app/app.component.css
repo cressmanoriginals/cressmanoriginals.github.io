@@ -4,7 +4,9 @@
     left : 0;
     width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 250px;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
 
 .logo_button1 {
@@ -48,4 +50,8 @@
     .logo_button2 {
         right: 65px;
     }
+}
+
+div {
+    background-color: rgb(235, 227, 201)
 }

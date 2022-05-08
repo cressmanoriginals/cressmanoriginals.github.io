@@ -1,0 +1,14 @@
+.bkgd {
+    background-color: rgb(235, 227, 201) ;
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+.center_div {
+    background-color:blue;
+    width:1000px;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
