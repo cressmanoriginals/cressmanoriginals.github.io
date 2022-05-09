@@ -1,4 +1,5 @@
 .top_logos_holder {
+    position: relative;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -27,7 +28,7 @@
 .logo_button2 {
     position: absolute;
     top: 30px;
-    right: 90px;
+    right: 100px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -36,7 +37,7 @@
 .logo_button3 {
     position: absolute;
     top: 30px;
-    right: 30px;
+    right: 50px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -56,8 +57,9 @@
     .logo_button2 {
         right: 65px;
     }
-    mat-tab-group {
-        width:400px;
+
+    .logo_button3 {
+        right: 25px;
     }
 }
 
