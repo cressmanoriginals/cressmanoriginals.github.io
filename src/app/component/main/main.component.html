@@ -3,32 +3,35 @@
 <div class="bkgd">
     <div class="center_div">
         <div class="rows">
-            <div class="container">
-                <img class="pic" src="./assets/paintings/apple.jpg">
+            <div class="container" *ngFor="let picture of pictures">
+                <img class="pic" src={{picture.image}}>
                 <div class="overlay">
                     <div class="link">
-                        <a href="https://google.com" target="_blnak">Go to Site</a>
+                        <a href="https://google.com" target="_blank">Go to Site</a>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <img class="pic" src="./assets/paintings/coffee.jpg">
-                <div class="overlay">
-                    <div class="link">
-                        <a href="https://w3schools.com" target="_blnak">Go to Site</a>
-                    </div>
-                </div>
-            </div>
-            
+            </div>            
         </div>
         
         <div class="rows">
-            <img class="pic" src="./assets/paintings/cheese.jpg">
-            <img class="pic" src="./assets/paintings/dragonfly.jpg">
+            <div class="container" *ngFor="let picture of pictures">
+                <img class="pic" src={{picture.image}}>
+                <div class="overlay">
+                    <div class="link">
+                        <a href="https://google.com" target="_blank">Go to Site</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="rows">
-            <img class="pic" src="./assets/paintings/face.jpg">
-            <img class="pic" src="./assets/paintings/empty_vessel.jpg">
+            <div class="container" *ngFor="let picture of pictures">
+                <img class="pic" src={{picture.image}}>
+                <div class="overlay">
+                    <div class="link">
+                        <a href="https://google.com" target="_blank">Go to Site</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
