@@ -4,19 +4,19 @@
 <div class="bkgd">
     <div class="center_div">
         <div class="rows">
-            <div class="container" *ngFor="let picture of pictures">
-                <img class="pic" src = {{picture.image}}>
+            <div class="container" *ngFor="let picture of pictures; index as i">
+                <img class="pic" *ngIf="i < firstAmount()" src= {{picture.image}}>
                 <div class="overlay">
                     <div class="link">
                         <a href="https://google.com" target="_blank">Go to Site</a>
                     </div>
                 </div>
-            </div>            
+            </div> 
         </div>
         
         <div class="rows">
-            <div class="container" *ngFor="let picture of pictures">
-                <img class="pic" src = {{picture.image}}>
+            <div class="container" *ngFor="let picture of pictures; index as i">
+                <img class="pic" *ngIf="i >= firstAmount() && i < secondAmount(firstAmount())" src = {{picture.image}}>
                 <div class="overlay">
                     <div class="link">
                         <a href="https://google.com" target="_blank">Go to Site</a>
@@ -24,9 +24,10 @@
                 </div>
             </div>
         </div>
+        
         <div class="rows">
-            <div class="container" *ngFor="let picture of pictures">
-                <img class="pic" src = {{picture.image}}>
+            <div class="container" *ngFor="let picture of pictures;index as i">
+                <img class="pic" *ngIf="i >= secondAmount(firstAmount())" src= {{picture.image}}>
                 <div class="overlay">
                     <div class="link">
                         <a href="https://google.com" target="_blank">Go to Site</a>

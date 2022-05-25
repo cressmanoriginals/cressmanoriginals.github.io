@@ -46,4 +46,8 @@ export class ImageService {
   getAll(): any {
     return this.IMAGES;
   }
+
+  listLen(): any {
+    return this.IMAGES.length;
+  }
 }
