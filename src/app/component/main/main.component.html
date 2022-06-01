@@ -8,7 +8,7 @@
                 <img class="pic" *ngIf="i < firstAmount()" src= {{picture.image}}>
                 <div class="overlay">
                     <div class="link">
-                        <a href="https://google.com" target="_blank">Go to Site</a>
+                        <a href={{picture.site}} target="_blank" style="text-decoration: none;">Go to Site</a>
                     </div>
                 </div>
             </div> 
@@ -19,7 +19,7 @@
                 <img class="pic" *ngIf="i >= firstAmount() && i < secondAmount(firstAmount())" src = {{picture.image}}>
                 <div class="overlay">
                     <div class="link">
-                        <a href="https://google.com" target="_blank">Go to Site</a>
+                        <a href={{picture.site}} target="_blank" style="text-decoration: none;">Go to Site</a>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                 <img class="pic" *ngIf="i >= secondAmount(firstAmount())" src= {{picture.image}}>
                 <div class="overlay">
                     <div class="link">
-                        <a href="https://google.com" target="_blank">Go to Site</a>
+                        <a href={{picture.site}} target="_blank" style="text-decoration: none;">Go to Site</a>
                     </div>
                 </div>
             </div>
